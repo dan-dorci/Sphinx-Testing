@@ -15,6 +15,7 @@
 - go into the folder ```/html``` and copy the ```index.html``` file
 - paste this file into the ```/docs``` folder and open it
 - replace it's contents with a redirect, the following two lines will work ```<!DOCTYPE html>```, ```<meta http-equiv="refresh" content="0; url=./html/index.html" />```
+- add nice theme ```sudo pip install sphinx_rtd_theme``` then inside ```conf.py``` change ```html_theme = 'alabaster'``` to ```html_theme = 'sphinx_rtd_theme'```
 ### 2. Adding Sphinx to Github Pages
 - after completing the steps above push the new version of code to Github
 - from the repository's page on Github, go to settings and select 'Pages' from the side menu
@@ -23,5 +24,8 @@
 - navigate back to Github Pages in Settings and click the link provided, wait a few minutes and hard refresh the page (command + R)
 - the Sphinx Github Page should now be visible
 
+#### Resources:
+1. [video related to step 1](https://www.youtube.com/watch?v=b4iFyrLQQh4&t=186s)
+2. [blog postrelated to step 2](https://python.plainenglish.io/how-to-host-your-sphinx-documentation-on-github-550254f325ae)
 
 
